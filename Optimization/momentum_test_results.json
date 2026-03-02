@@ -1,0 +1,24 @@
+{
+  "last_5": {
+    "stage1_brier": 0.16324,
+    "men_brier": 0.18775,
+    "women_brier": 0.13873
+  },
+  "last_10": {
+    "stage1_brier": 0.1629,
+    "men_brier": 0.18737,
+    "women_brier": 0.13844
+  },
+  "weighted_decay": {
+    "stage1_brier": 0.16306,
+    "men_brier": 0.18723,
+    "women_brier": 0.13889
+  },
+  "last_20": {
+    "stage1_brier": 0.16244,
+    "men_brier": 0.18819,
+    "women_brier": 0.13668
+  },
+  "_winner": "last_20",
+  "_base_innov_brier": 0.16244
+}

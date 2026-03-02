@@ -1,0 +1,34 @@
+{
+  "date_applied": "2026-03-02",
+  "base_model": "Ridge Quality + 93 FE features (opt_fe_combined)",
+  "overrides": [
+    {
+      "team_id": 1276,
+      "team_name": "Michigan",
+      "reason": "L.J. Cason ACL tear Feb 27 -- key contributor out for season",
+      "delta_logit": -0.3,
+      "confidence": "medium",
+      "rows_t1": 197,
+      "rows_t2": 167
+    },
+    {
+      "team_id": 1397,
+      "team_name": "Tennessee",
+      "reason": "Nate Ament doubtful Mar 2 -- 2nd leading scorer 17.9ppg, lottery pick",
+      "delta_logit": -0.45,
+      "confidence": "medium-high",
+      "rows_t1": 81,
+      "rows_t2": 283
+    },
+    {
+      "team_id": 1211,
+      "team_name": "Gonzaga",
+      "reason": "Braden Huff knee injury since Jan 8 -- 17.8ppg 66%FG, may miss tourney",
+      "delta_logit": -0.2,
+      "confidence": "low-medium",
+      "rows_t1": 260,
+      "rows_t2": 104
+    }
+  ],
+  "note": "logit-space delta: negative = team weaker than model expects"
+}

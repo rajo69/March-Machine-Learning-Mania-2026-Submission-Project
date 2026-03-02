@@ -1,0 +1,25 @@
+# Large data files — download from Kaggle separately
+Data/
+Last_Year_Winner/
+Competition_2026/
+
+# Model caches (large pickle files, hundreds of MB)
+.cache/
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude Code internal
+.claude/
+
+# Large Stage 1 submissions (>12MB each — too large for regular git)
+submission_stage1.csv
+submission_2026_advanced.csv
+
+# Temp / editor
+prompt.md
+*.tmp
+.DS_Store

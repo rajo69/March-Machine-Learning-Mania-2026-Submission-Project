@@ -1,0 +1,20 @@
+ABLATION STUDY: Underdog Boost
+==================================================
+Model: Innovation LOSO (58 features), Clip=[0.025, 0.975]
+
+(A) Raw Spline Calibration:
+    Brier Stage1 (2022-25): 0.16244
+    Brier Men:              0.18819
+    Brier Women:            0.13668
+    Brier All seasons:      0.16549
+
+(B) Spline + 10% Underdog Boost (pred < 0.85 -> pred * 1.10):
+    Brier Stage1 (2022-25): 0.16405
+    Brier Men:              0.19009
+    Brier Women:            0.13801
+    Brier All seasons:      0.16742
+
+Delta (A - B): -0.00161  -> BOOST HURTS (A is better, skip boost)
+
+RECOMMENDATION:
+  Use boost: NO (raw spline is better-calibrated)

@@ -1,0 +1,59 @@
+{
+  "baseline_ridge_quality": 0.16143,
+  "FE1_sos": {
+    "brier": 0.1611,
+    "delta": 0.00033,
+    "n_features": 3
+  },
+  "FE2_late_delta": {
+    "brier": 0.16118,
+    "delta": 0.00025,
+    "n_features": 10
+  },
+  "FE3_top25_winpct": {
+    "brier": 0.16137,
+    "delta": 6e-05,
+    "n_features": 3
+  },
+  "FE4_neutral_site": {
+    "brier": 0.16026,
+    "delta": 0.00117,
+    "n_features": 6
+  },
+  "FE5_conf_strength": {
+    "brier": 0.16035,
+    "delta": 0.00108,
+    "n_features": 3
+  },
+  "combined": {
+    "brier": 0.15978,
+    "delta": 0.00165,
+    "features_added": [
+      "T1_sos",
+      "T2_sos",
+      "sos_diff",
+      "T1_delta_Score",
+      "T1_delta_FGA",
+      "T1_delta_OR",
+      "T1_delta_DR",
+      "T1_delta_PD",
+      "T2_delta_Score",
+      "T2_delta_FGA",
+      "T2_delta_OR",
+      "T2_delta_DR",
+      "T2_delta_PD",
+      "T1_win_pct_top25",
+      "T2_win_pct_top25",
+      "win_pct_top25_diff",
+      "T1_neutral_winpct",
+      "T2_neutral_winpct",
+      "neutral_winpct_diff",
+      "T1_neutral_margin",
+      "T2_neutral_margin",
+      "neutral_margin_diff",
+      "T1_conf_strength",
+      "T2_conf_strength",
+      "conf_strength_diff"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "golden_brier_s1": 0.16213,
+  "gender_split_brier_s1": 0.16596,
+  "men_s1_brier": 0.19097,
+  "women_s1_brier": 0.14094,
+  "delta_vs_golden": -0.00383,
+  "option_a_improves": false,
+  "per_year": {
+    "2022": 0.19492,
+    "2023": 0.18986,
+    "2024": 0.15619,
+    "2025": 0.12285
+  }
+}
